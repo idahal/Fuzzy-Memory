@@ -1,3 +1,5 @@
+'use strict';
+
 const cards = document.querySelectorAll('.memory-card');
 
 function resetBoard() {
@@ -47,3 +49,10 @@ function unFlipCards () {
     resetBoard();
   }, 1700);
 }
+
+(function shuffle() {
+  cards.forEach(card=> {
+    let randomPos = Math.floor(Math.random() * 16);
+    card.style.order = randomPos;
+  })
+})();
