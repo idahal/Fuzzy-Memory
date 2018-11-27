@@ -28,7 +28,7 @@ body {
 .memory-card {
   width: 150px;
   height: 150px;
-  margin: 10px;
+  margin: 7px;
   position: relative;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
   transform: scale(1);
@@ -57,9 +57,14 @@ transition: transform .2s;
   }
 
 .item-front {
+  transition: transform .2s;
   background: blanchedalmond;
   background-image: linear-gradient(#ff3333, #ff8533, #ffff33, #8cff1a, #00bfff, #6666ff, #d279a6);
   }
+
+.item-front:hover {
+  transform: scale(1.1);
+}
 
 .item-back {
   background-color: aqua;
