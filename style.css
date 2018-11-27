@@ -8,7 +8,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: hotpink;
+  background: #ffcccc;
 }
 .title {
   width: 100%;
@@ -52,13 +52,14 @@ transition: transform .2s;
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 0.4px solid white;
   backface-visibility: hidden;
   }
 
 .item-front {
   background: blanchedalmond;
-}
+  background-image: linear-gradient(#ff3333, #ff8533, #ffff33, #8cff1a, #00bfff, #6666ff, #d279a6);
+  }
 
 .item-back {
   background-color: aqua;

@@ -12,7 +12,7 @@ const memorycards = [
 const createCard = (id, image) => {
   return `
   <div class="memory-card" data-pony=${id}>
-    <div class="item-front">My little pony</div>
+    <div class="item-front"></div>
     <img class="item-back" src="${image}" alt="">
   </div>`
 }
