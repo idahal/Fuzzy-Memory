@@ -1,12 +1,12 @@
 const memorycards = [
   { id: 'applejack', image: "./image/apple.png"},
-  { id: 'rarity', image: "./image/rarity.jpg" },
-  { id: 'rainbowdash', image: "./image/rainbowdash.png" },
-  { id: 'pinkie', image: "./image/pinkie2.png" },
-  { id: 'twilightsparkle', image: "./image/twilight.jpg"},
-  { id: 'celestia', image: "./image/celestia.jpg" },
-  { id: 'fluttershy', image: "./image/flutter.jpg" },
-  { id: 'spike', image: "./image/spike.png" },
+  // { id: 'rarity', image: "./image/rarity.jpg" },
+  // { id: 'rainbowdash', image: "./image/rainbowdash.png" },
+  // { id: 'pinkie', image: "./image/pinkie2.png" },
+  // { id: 'twilightsparkle', image: "./image/twilight.jpg"},
+  // { id: 'celestia', image: "./image/celestia.jpg" },
+  // { id: 'fluttershy', image: "./image/flutter.jpg" },
+  // { id: 'spike', image: "./image/spike.png" },
 ]
 
 const createCard = (id, image) => {
@@ -32,7 +32,7 @@ function resetBoard() {
   //create replay button after game finish. If all cards is = cards who been flipped
   if(cards.length === memorygame.querySelectorAll('.flip').length){
     console.log('All is flipped!');
-    memorygame.insertAdjacentHTML('beforeend','<div class="reset"><button class="reset-all"><h3>You won!</h3> <br> Press if you want to play again</button></div>');
+    memorygame.insertAdjacentHTML('beforeend','<div class="reset"><button class="reset-all"><h3>You won!</h3>Press if you want to play again</button></div>');
     document.querySelector('.reset-all').addEventListener('click', resetAll);
   }
 }
