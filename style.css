@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: helvetica;
 }
 
 body {
@@ -10,15 +11,25 @@ body {
   flex-direction: column;
   background: #ffcccc;
 }
+
+.header {
+  display: flex;
+}
 .title {
   width: 100%;
   height: 100px;
   text-align: center;
 }
 
+button {
+  width: 80px;
+  height: 40px;
+  background-color: aqua;
+  color: black;
+}
 .memory-game {
-  width: 700px;
-  height: 700px;
+  width: 600px;
+  height: 600px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -26,9 +37,9 @@ body {
 }
 
 .memory-card {
-  width: 150px;
-  height: 150px;
-  margin: 7px;
+  width: 130px;
+  height: 130px;
+  margin: 8px;
   position: relative;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
   transform: scale(1);
@@ -45,6 +56,7 @@ transition: transform .2s;
   transform: rotateY(180deg);
 }
 
+
 .item-front,
 .item-back {
   width: 100%;
@@ -57,16 +69,38 @@ transition: transform .2s;
   }
 
 .item-front {
-  transition: transform .2s;
   background: blanchedalmond;
   background-image: linear-gradient(#ff3333, #ff8533, #ffff33, #8cff1a, #00bfff, #6666ff, #d279a6);
-  }
+}
+
+.item-back {
+  background-color: #ffffff;
+  transform: rotateY(180deg);
+}
 
 .item-front:hover {
   transform: scale(1.1);
 }
 
-.item-back {
-  background-color: aqua;
-  transform: rotateY(180deg);
+.reset-all {
+  position: absolute;
+  height: 100px;
+  width: 200px;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #ff3377;
+   opacity: 1;
+   color: white;
+   font-size: 16px;
+   padding: 12px 24px;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.reset-all:hover {
+  background-color: #ff3377;
+  opacity: none;
 }
