@@ -2,15 +2,15 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: helvetica;
+  font-family: roboto, san serif;
 }
 
 body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #ffcccc;
-}
+  background: #cc99ff;
+  }
 
 .header {
   display: flex;
@@ -18,15 +18,13 @@ body {
 .title {
   width: 100%;
   height: 100px;
+  font-size: 28px;
   text-align: center;
-}
+  color: #800080;
+  text-shadow: 1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 1px #ffffff;
+  }
 
-button {
-  width: 80px;
-  height: 40px;
-  background-color: aqua;
-  color: black;
-}
+
 .memory-game {
   width: 600px;
   height: 600px;
@@ -102,5 +100,5 @@ transition: transform .2s;
 
 .reset-all:hover {
   background-color: #ff3377;
-  opacity: none;
-}
+
+  }
