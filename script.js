@@ -1,12 +1,12 @@
 const memorycards = [
   { id: 'applejack', image: "./image/apple.png"},
-  // { id: 'rarity', image: "./image/rarity.jpg" },
-  // { id: 'rainbowdash', image: "./image/rainbowdash.png" },
-  // { id: 'pinkie', image: "./image/pinkie2.png" },
-  // { id: 'twilightsparkle', image: "./image/twilight.jpg"},
-  // { id: 'celestia', image: "./image/celestia.jpg" },
-  // { id: 'fluttershy', image: "./image/flutter.jpg" },
-  // { id: 'spike', image: "./image/spike.png" },
+  { id: 'rarity', image: "./image/rarity.jpg" },
+  { id: 'rainbowdash', image: "./image/rainbowdash.png" },
+  { id: 'pinkie', image: "./image/pinkie2.png" },
+  { id: 'twilightsparkle', image: "./image/twilight.jpg"},
+  { id: 'celestia', image: "./image/celestia.jpg" },
+  { id: 'fluttershy', image: "./image/flutter.jpg" },
+  { id: 'spike', image: "./image/spike.png" },
 ]
 
 const createCard = (id, image) => {

@@ -9,7 +9,8 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background: #cc99ff;
+  background: #ffffff;
+  background-image: url("image/heart.gif");
   }
 
 .header {
@@ -21,7 +22,7 @@ body {
   font-size: 28px;
   text-align: center;
   color: #800080;
-  text-shadow: 1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 1px #ffffff;
+  text-shadow: -2px 0 #ffffff, 0 2px #ffffff, 2px 0 #ffffff, 0 -2px #ffffff;
   }
 
 
@@ -62,19 +63,19 @@ transition: transform .2s;
   padding: 20px;
   position: absolute;
   border-radius: 5px;
-  border: 0.4px solid white;
+  border: 2px solid #ffffff;
   backface-visibility: hidden;
   }
 
 .item-front {
-  background: blanchedalmond;
-  background-image: linear-gradient(#ff3333, #ff8533, #ffff33, #8cff1a, #00bfff, #6666ff, #d279a6);
+  background: #800080;
+    /* background-image: linear-gradient(#ff3333, #ff8533, #ffff33, #8cff1a, #00bfff, #6666ff, #d279a6); */
 }
 
 .item-back {
   background-color: #ffffff;
   transform: rotateY(180deg);
-}
+  }
 
 .item-front:hover {
   transform: scale(1.1);
@@ -87,7 +88,7 @@ transition: transform .2s;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
-   background-color: #800080;
+   background-color: #ff3385;
    opacity: 1;
    color: white;
    font-size: 16px;
@@ -99,7 +100,7 @@ transition: transform .2s;
 }
 
 .reset-all:hover {
-  background-color: #330033;
+  background-color: #b30047;
   height: 120px;
   width: 220px;
     }
