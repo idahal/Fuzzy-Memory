@@ -84,7 +84,7 @@ transition: transform .2s;
 .reset-all {
   position: absolute;
   height: 100px;
-  width: 200px;
+  width: 220px;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
@@ -97,10 +97,17 @@ transition: transform .2s;
    cursor: pointer;
    border-radius: 7px;
    text-align: center;
+   animation: blink .4s step-end infinite alternate;
 }
 
+  @keyframes blink {
+    50% {border: white;}
+  }
+
+
+
 .reset-all:hover {
-  background-color: #b30047;
+  background-color: #e6005c;
   height: 120px;
   width: 220px;
     }
