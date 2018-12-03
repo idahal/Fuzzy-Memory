@@ -42,7 +42,7 @@ body {
 .memory-card {
   width: 130px;
   height: 130px;
-  margin: 8px;
+  margin: 10px;
   position: relative;
   box-shadow: 1px 1px 1px rgba(0,0,0,.3);
   transform: scale(1);
