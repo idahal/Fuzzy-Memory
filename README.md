@@ -22,7 +22,7 @@ The game have been tested on:
 * Firefox
 
 ## Image
-The image in the game is borrowed, this game is for private use only.
+The images in the game is borrowed, this game is just a school assignment and for private use only.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/idahal/Fuzzy-Memory/blob/master/LICENSE) file for details.
