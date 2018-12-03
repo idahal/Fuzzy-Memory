@@ -80,10 +80,10 @@ function resetBoard() {
   [hasFlipCard, stopFlip] = [false, false];
   [firstCard, secondCard] = [null, null];
 
-//create replay button after game finish. If all cards is = cards who been flipped
+//create replay button after game end. If all cards is = cards who been flipped
   if(cards.length === memorygame.querySelectorAll('.flip').length){
     // console.log('All is flipped!');
-    memorygame.insertAdjacentHTML('beforeend','<div class="reset"><h3>Jippi! You won!</h3><button class="reset-all">Play again</button></div>');
+    memorygame.insertAdjacentHTML('beforeend','<div class="reset"><h3>Yay! You won!</h3><button class="reset-all">Play again</button></div>');
     document.querySelector('.reset-all').addEventListener('click', resetAll);
   }
 }
