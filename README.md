@@ -13,9 +13,13 @@ This is a school assignment. The assignment was to create a memory game using HT
 * CSS
 
 ## Tested
+The game have been tested by:
+* [Isa Areschoug](https://github.com/Neyrin)
+* [Mattias Rådemar](https://github.com/Raademar)
+
 The game have been tested on:
-*
-*
+* Chrome
+* Firefox
 
 ## Image
 The image in the game is borrowed, this game is for private use only.
